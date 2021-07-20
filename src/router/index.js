@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import NumberList from '../views/NumberList.vue'
+import PokemonList from '../views/PokemonsList.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/numbers',
     name: 'NumberList',
     component: NumberList
+  },
+  {
+    path: '/pokemons',
+    name: 'PokemonList',
+    component: PokemonList
   },
 ]
 
