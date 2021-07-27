@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>|
       <router-link to="/numbers">numbers</router-link>|
-      <router-link to="/pokemons">pokemons</router-link>
+      <router-link to="/pokemons">pokemons</router-link> |
+      <router-link to="/pokedex">pokedex</router-link>
     </div>
     <router-view/>
   </div>
